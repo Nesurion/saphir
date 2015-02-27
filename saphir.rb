@@ -1,10 +1,12 @@
 require "sinatra"
+require "haml"
+require "redis"
 
 configure do
   set :bind, "0.0.0.0"
-  set :port, "4567"
+  set :port, "80"
 end
 
 get "/" do
-  "Hello from Spahir"
+  haml :index, format: :html5
 end
