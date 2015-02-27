@@ -1,6 +1,6 @@
 require "sinatra"
 require "haml"
-require "redis"
+#require "redis"
 
 configure do
   set :bind, "0.0.0.0"
