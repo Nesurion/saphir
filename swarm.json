@@ -1,0 +1,18 @@
+{
+  "app_name": "saphir-app",
+  "services": [
+    {
+      "service_name": "saphir-service",
+      "components": [
+        {
+          "component_name": "saphir-sinatra",
+          "image": "registry.giantswarm.io/$username/saphir:0.1",
+          "ports": [4567],
+          "domains": {
+            "saphir.gigantic.io": 4567
+          }
+        }
+      ]
+    }
+  ]
+}
