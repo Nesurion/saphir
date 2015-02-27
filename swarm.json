@@ -6,7 +6,7 @@
       "components": [
         {
           "component_name": "saphir-sinatra",
-          "image": "registry.giantswarm.io/$username/saphir:0.1",
+          "image": "registry.giantswarm.io/nesurion/saphir:0.1",
           "ports": [4567],
           "domains": {
             "saphir.gigantic.io": 4567
